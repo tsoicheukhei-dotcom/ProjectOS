@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Display">
+        <ListPreference
+            android:key="wallpaper"
+            android:title="Wallpaper"
+            android:entries="@array/wallpaper_names"
+            android:entryValues="@array/wallpaper_values"
+            android:defaultValue="default" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Account">
+        <EditTextPreference
+            android:key="phone_number"
+            android:title="Phone Number"
+            android:enabled="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About">
+        <Preference
+            android:title="ProjectOS Version"
+            android:summary="1.0.0" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

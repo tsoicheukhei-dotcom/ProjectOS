@@ -1,0 +1,6 @@
+-keep class com.projectos.** { *; }
+-keep class androidx.** { *; }
+-keep class com.google.android.material.** { *; }
+-dontwarn com.squareup.okhttp3.**
+-dontwarn retrofit2.**
+-dontwarn org.codehaus.mojo.animal_sniffer.**

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjectOS</string>
+    <string-array name="wallpaper_names">
+        <item>Default</item>
+        <item>Blue Gradient</item>
+        <item>Purple Gradient</item>
+        <item>Dark Mode</item>
+    </string-array>
+    <string-array name="wallpaper_values">
+        <item>default</item>
+        <item>blue_gradient</item>
+        <item>purple_gradient</item>
+        <item>dark_mode</item>
+    </string-array>
+</resources>
